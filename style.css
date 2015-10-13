@@ -52,7 +52,7 @@ p{
 	margin:10px;
 }
 
-b{ font-weight:bold;} /* i know now this is supposed to be <span></span> */
+b{ font-weight:bold;} /* i know now that this is supposed to be <span></span> */
 i{ font-style: italic;}
 
 table{ 
