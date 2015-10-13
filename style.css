@@ -1,0 +1,475 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+div{
+	box-sizing:border-box;
+}
+
+h1{ 
+	font-family: 'harry_pregular'; 
+	font-size:100px; 
+	text-align:center; 
+	margin:30px;  
+	letter-spacing:5px; 
+	}
+	
+h2{ 
+	font-family: 'aaarghnormal'; 
+	font-size:20px; 
+	margin:15px 0px 15px 0px; 
+	letter-spacing:15px; 
+	text-transform:uppercase; 
+	font-weight:200; 
+	text-align:center; 
+	line-height:30px;
+}
+
+blockquote{	
+	margin-left:50px;	
+	font-family: 'jenna_sueregular';	
+	font-size:30px;
+}
+
+p{
+	margin:10px;
+}
+
+.clearboth{	clear:both;}
+
+.current{	color:#FFFFFF;	background:#AD5ED0;}
+
+.textwrapleft{ 
+	float: left;
+	margin:10px; 
+	width:250px; 
+	height:auto;
+ }
+ 
+.textwrapright{ 
+	float:right; 
+	margin:10px;
+}
+
+b{ font-weight:bold;} /* i know now this is supposed to be <span></span> */
+i{ font-style: italic;}
+
+table{ 
+	width:250px; 
+	float:right; 
+	margin:5px; 
+	background: #E7E7E7;
+}
+
+th{ 
+  font-family:'jenna_sueregular'; 
+  height:40px; 
+  font-size:40px;
+}
+
+tr{ border: #C8C8C8 solid 1px;}
+
+.td1{ 
+  padding:5px; 
+  width:100px;
+  font-weight:bold;
+  border-right: #C8C8C8 solid 1px; 
+  text-align:right; 
+  vertical-align: middle;
+}
+
+.td2{
+  padding:5px; 
+  width:100px; 
+  vertical-align: middle; 
+}
+
+#menuuuu{
+	width:100%;
+	height:60px;
+	background:white;
+	position:fixed;
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+
+.menu{
+	width:900px;
+	height:60px;
+	margin:auto;
+}
+
+li{
+	float:left;
+}
+
+li a{
+	display:block;
+	width:180px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	font-family: 'jenna_sueregular';
+	font-size:40px;
+	color:#000;
+	text-decoration:none;
+	transition-duration: 0.5s;
+}
+
+li a:hover{
+	color:#CCC;
+	transition-duration: 0.3s;
+}
+
+.content{
+	width:100%;
+	min-height:700px;
+}
+
+.textbox{
+	width:600px;
+	min-height:700px;
+	margin:auto;
+	margin-bottom:30px;
+	color:#3D3D3D;
+}
+
+#battle{ 
+  width:100%; 
+  height:85%; 
+  transition:ease-out;	
+  background:url(Photos/hogwarts.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover; 
+  transition:2.0s;
+}
+	
+#hermione{ 
+  width:100%; 
+  height:85%;	
+  background:url(Photos/hermione.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;
+}
+	
+#luna{	
+  width:100%;	
+  height:85%;	
+  background:url(Photos/luna.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;
+}
+
+#draco{	
+  width:100%;	
+  height:85%;	
+  background:url(Photos/draco.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;
+}
+	
+#narcissa{	
+  width:100%;	
+  height:85%;	
+  background:url(Photos/narcissa.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;  
+  -o-background-size: cover;  
+  background-size: cover;
+}
+
+@media (max-width:1024px){
+	
+	#battle{	height:55%; } 
+	#hermione{	height:55%;} 
+	#luna{	height:55%;} 
+	#draco{	height:55%;} 
+	#narcissa{ height:55%;}
+}
+
+@media (max-width:768px){
+	
+#battle{	height:70%; } 
+#hermione{	height:70%;} 
+#luna{	height:78%;} 
+#draco{	height:78%;} 
+#narcissa{ height:78%;}
+	
+#menuuuu{
+	width:100%;
+	height:60px;
+	background:white;
+	position:fixed;
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+
+li{
+	width:153px;
+}
+
+li a{
+	font-family: 'aaarghnormal';
+	font-size:15px;
+}
+
+.textbox{
+	width:600px;
+	font-size:20px;
+}	
+
+}
+
+@media (max-width:667px){
+
+#battle{	height:40%; } 
+#hermione{height:40%;} 
+#luna{	height:48%;} 
+#draco{	height:48%;} 
+#narcissa{ height:48%;}
+	
+h1{ 
+  font-family: 'harry_pregular'; 
+  font-size:50px; 
+  text-align:center; 
+  margin:30px;  
+  letter-spacing:5px; 
+}
+	
+#menuuuu{
+	width:100%;
+	height:60px;
+	background:white;
+	position:fixed;
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+
+li{
+	width:135px;
+}
+
+li a{
+	font-family: 'aaarghnormal';
+	font-size:12px;
+	text-align:center;
+	width:135px;
+}
+
+.textbox{
+	width:600px;
+	font-size:15px;
+}	
+	
+}
+
+@media (max-width:414px){
+	
+h1{ 
+  font-family: 'harry_pregular'; 
+  font-size:50px; 
+  text-align:center; 
+  margin-top:30px;  
+  letter-spacing:5px; 
+}
+
+h2{ 
+  font-family: 'aaarghnormal'; 
+  font-size:15px; 
+  margin:15px 0px 15px 0px; 
+  letter-spacing:15px; 
+  text-transform:uppercase; 
+  font-weight:200; 
+  text-align:center; 
+  line-height:30px;
+}
+
+blockquote{	
+  margin-left:50px;	
+  font-family: 'jenna_sueregular';	
+  font-size:30px;
+}
+
+table{ 
+  width:250px; 
+  margin:auto; 
+  float:none; 
+  background: #E7E7E7;
+}
+	
+#menuuuu{
+	width:100%;
+	height:60px;
+	background:black;
+}
+
+nav {
+	float: left;
+	background: url(Photos/menu.png) no-repeat center;
+	width:60px;
+	height:60px;
+	color:#fff;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul, nav:hover ul { 
+	display: none;
+	position: absolute;
+	margin:60px 0 0 0px;
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height:355px;
+}
+
+nav li{
+	float:none;
+	width:100%;
+}
+
+nav li a{
+	width:100%;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	font-family: 'aaarghnormal';
+	font-size:20px;
+	display: inline-block;
+	border-bottom: 1px solid #c5c4c5;
+}
+
+nav li:hover{
+	color:#CCC;
+	-webkit-transition-duration:0.5s;
+}
+
+nav:hover ul {
+	display: block;
+}
+
+.textbox{
+	width:300px;
+	min-height:700px;
+	margin:auto;
+	margin-bottom:30px;
+	color:#3D3D3D;
+	font-size:15px;
+}	
+
+#battle{ height:46%; } 
+#hermione{ height:46.5%;} 
+#luna{	height:50%;} 
+#draco{ height:46%;} 
+#narcissa{ height:50.5%;}
+
+}
+
+/* ----------- FONTS ------------ */
+
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('fonts/aaargh/aaargh-webfont.eot');
+    src: url('fonts/aaargh/aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aaargh/aaargh-webfont.woff2') format('woff2'),
+         url('fonts/aaargh/aaargh-webfont.woff') format('woff'),
+         url('fonts/aaargh/aaargh-webfont.ttf') format('truetype'),
+         url('fonts/aaargh/aaargh-webfont.svg#aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('fonts/jennasue/jennasue-webfont.eot');
+    src: url('fonts/jennasue/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/jennasue/jennasue-webfont.woff2') format('woff2'),
+         url('fonts/jennasue/jennasue-webfont.woff') format('woff'),
+         url('fonts/jennasue/jennasue-webfont.ttf') format('truetype'),
+         url('fonts/jennasue/jennasue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'honey_scriptlight';
+    src: url('fonts/honeyscript/honeyscript-light-webfont.eot');
+    src: url('fonts/honeyscript/honeyscript-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/honeyscript/honeyscript-light-webfont.woff2') format('woff2'),
+         url('fonts/honeyscript/honeyscript-light-webfont.woff') format('woff'),
+         url('fonts/honeyscript/honeyscript-light-webfont.ttf') format('truetype'),
+         url('fonts/honeyscript/honeyscript-light-webfont.svg#honey_scriptlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('fonts/AmaticSC/amaticsc-regular-webfont.eot');
+    src: url('fonts/AmaticSC/amaticsc-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AmaticSC/amaticsc-regular-webfont.woff2') format('woff2'),
+         url('fonts/AmaticSC/amaticsc-regular-webfont.woff') format('woff'),
+         url('fonts/AmaticSC/amaticsc-regular-webfont.ttf') format('truetype'),
+         url('fonts/AmaticSC/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('fonts/amaranth/amaranth-regular-webfont.eot');
+    src: url('fonts/amaranth/amaranth-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/amaranth/amaranth-regular-webfont.woff2') format('woff2'),
+         url('fonts/amaranth/amaranth-regular-webfont.woff') format('woff'),
+         url('fonts/amaranth/amaranth-regular-webfont.ttf') format('truetype'),
+         url('fonts/amaranth/amaranth-regular-webfont.svg#amaranthregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aquilinetworegular';
+    src: url('fonts/AquilineTwo/aquilinetwo-webfont.eot');
+    src: url('fonts/AquilineTwo/aquilinetwo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AquilineTwo/aquilinetwo-webfont.woff2') format('woff2'),
+         url('fonts/AquilineTwo/aquilinetwo-webfont.woff') format('woff'),
+         url('fonts/AquilineTwo/aquilinetwo-webfont.ttf') format('truetype'),
+         url(fonts/aquilinetwo/'aquilinetwo-webfont.svg#aquilinetworegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('fonts/harryp/harryp__-webfont.eot');
+    src: url('fonts/harryp/harryp__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/harryp/harryp__-webfont.woff2') format('woff2'),
+         url('fonts/harryp/harryp__-webfont.woff') format('woff'),
+         url('fonts/harryp/harryp__-webfont.ttf') format('truetype'),
+         url('fonts/harryp/harryp__-webfont.svg#harry_pregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
